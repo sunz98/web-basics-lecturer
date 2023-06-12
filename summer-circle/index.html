@@ -31,25 +31,119 @@
             <!-- 헤더 세번째 섹션 -->
             <div class="header--tertiary">
                 <!-- 실습 5. 지도 다운로드 및 멤버십 가입 안내 -->
+                <ul>
+                    <li class="map-download">
+                        지도 다운로드
+                        <span class="material-icons">
+                            file_download
+                        </span>
+                    </li>
+                    <li class="membership">
+                        2023 썸머써클 멤버십 가입하기
+                    </li>
+                </ul>
                 
                 <!-- 실습 6. 배경음악 플레이어 -->
+                <div class="music__box">
+                    <!-- 배경음악 정보 -->
+                    <div class="music__info">
+                        <p id="song__info"></p>
+                    </div>
+                        <!-- 헤드셋 아이콘 -->
+                    <span id="headset--on" class="material-icons">
+                        headset
+                    </span>
+                    <!-- 헤드셋 off 아이콘 -->
+                    <span id="headset--off" class="material-icons">
+                        headset_off
+                    </span>
+                </div>
                 
                 <div class="lang">en</div>
             </div>
             <div class="main">
                 <!-- 실습 1. 로고 이미지 -->
                 <!-- 클릭하면 홈으로 이동하는 링크가 걸려있습니다 -->
+                <a href="/" class="logo">
+                    <img src="./images/logo.png" alt="로고">
+                </a>
             
                 <div class="menu">
                     <!-- 헤더 두번째 섹션 -->
                     <div class="header--secondary">
                         <!-- 실습 4. 서브 메뉴 -->
-                        
+                        <div class="festival__date">
+                            2021.06.09 금 ~ 06.11 일
+                        </div>
+                        <ul class="sub">
+                            <li><a href="#about">대하여</a></li>
+                            <li><a href="#sponsor">스폰서</a></li>
+                            <li>자원활동</li>
+                            <li>기부</li>
+                        </ul>
+                    </div>    
                     <!-- 헤더 첫번째 섹션 -->
                     <div class="header--primary">
                         <!-- 실습 2. 네비게이션 메뉴 -->
+                        <ul class="main">
+                            <li class="item">
+                                <div class="item__title">
+                                    <div class="item__name">프로그램</div>
+                                    <span class="material-icons">
+                                        keyboard_arrow_down
+                                    </span>
+                                </div>
+                                <div class="item__contents">
+                                    <ul>
+                                        <li>바람맞는 공연</li>
+                                        <li>무해한 플리마켓</li>
+                                        <li>파도타는 파티</li>
+                                        <li>고요한 영화관</li>
+                                        <li>간지러운 워크샵</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="item">
+                                <div class="item__title">
+                                    <div class="item__name">일정</div>
+                                    <span class="material-icons">
+                                        keyboard_arrow_down
+                                    </span>
+                                </div>
+                                <div class="item__contents">
+                                    <ul>
+                                        <li>9 금요일</li>
+                                        <li>10 토요일</li>
+                                        <li>11 일요일</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="item">
+                                <div class="item__title">
+                                    <div class="item__name">정보</div>
+                                    <span class="material-icons">
+                                        keyboard_arrow_down
+                                    </span>
+                                </div>
+                                <div class="item__contents">
+                                    <ul>
+                                        <li>이동거리</li>
+                                        <li>먹거리</li>
+                                        <li>마실거리</li>
+                                        <li>누울자리</li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
                         
                         <!-- 실습 3. 검색창 -->
+                        <div class="search">
+                            <input id="search__box" placeholder="신인류와 날씨의 요정" />
+                            <!-- 검색 아이콘 -->
+                            <span class="material-icons">
+                                search
+                            </span>
+                        </div>
                         
                     </div>
                 </div>
